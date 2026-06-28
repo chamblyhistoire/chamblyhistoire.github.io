@@ -1,7 +1,17 @@
 # main links
 main:
-  - title: "Chambly"
-    url: /about-chambly/
+  - title: Chambly
+    url: /chambly/
+
+  - title: Projets
+    url: /projets/
+
+  - title: Blog
+    url: /blog/
+
+  - title: Informations
+    url: /info/
+    
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
