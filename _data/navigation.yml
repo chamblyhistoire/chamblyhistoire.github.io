@@ -1,22 +1,24 @@
 # main links
 main:
-  - title: Chambly
-    url: /chambly/
 
-  - title: Projets
-    url: /projets/
+  - title: Accueil
+    url: /accueil/
+
+  - title: Notre association
+    url: /notre-asso/
 
   - title: Blog
     url: /blog/
-
-  - title: Informations
-    url: /info/
     
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: Ville de Chambly
+    url: /chambly/
+
+  - title: Archives
+    url: /archives/
+
+  - title: Liens utiles
+    url: /liens/
+
+  - title: Nous contacter
+    url: /contact/
+    

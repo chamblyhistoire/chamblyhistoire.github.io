@@ -10,30 +10,33 @@ intro:
   - excerpt: "Bienvenue"
 
 feature_row:
-  - image_path: /assets/images/projet1.jpg
-    alt: "Projet 1"
-    title: "Projets"
-    excerpt: "Nos projets"
-    url: /projects/
-    btn_label: "Voir les projets"
+  - image_path: /assets/images/asso-chambly.jpg
+    alt: "Notre association"
+    title: "Notre association"
+    excerpt: ""
+    url: /notre-asso/
+    btn_label: "Lire"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/blog.jpg
     alt: "Blog"
-    title: "Blog"
-    excerpt: "Lire"
-    url: /blog/
+    title: "Dernier post du blog"
+    excerpt: ""
+    url: "{{ latest_post.url }}"
     btn_label: "Lire"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/info.jpg
-    alt: "Info"
-    title: "Info"
-    excerpt: "Informations"
-    url: /info/
-    btn_label: "Informations"
+  - image_path: /assets/images/Galerie.jpg
+    alt: ""
+    title: "Galerie d'images"
+    excerpt: ""
+    url: /galerie/
+    btn_label: "Voir la galerie"
     btn_class: "btn--primary"
+    
 ---
+
+{% assign latest_post = site.posts.first %}
 
 {% include feature_row %}
 
