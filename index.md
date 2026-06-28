@@ -1,9 +1,9 @@
 ---
 layout: splash
-title: Welcome
+title: Bienvenue à la page de l'association Chambly Histoire et Patrimoine !
 
 header:
-  overlay_image: /assets/images/chambly-home-page-feature.jpg
+  overlay_image: /assets/images/chambly-home-page-feature-1.jpg
   overlay_filter: 0.5
 
 intro:
@@ -23,7 +23,7 @@ feature_row:
     title: "Blog"
     excerpt: "Lire"
     url: /blog/
-    btn_label: "Read More"
+    btn_label: "Lire"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/info.jpg
